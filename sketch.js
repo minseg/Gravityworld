@@ -17,8 +17,26 @@ function draw() {
   // ball.addForce(wind);
   // }
 
+  //let took = createVector();
+  ball.pos
+  let mPos = createVector(mouseX, mouseY);
+  let took = p5.Vector.sub(ball.pos, mPos);
+
+
+ 
+
     ball.update();
     ball.show();
+}
+
+
+  function mouseCliked(){
+
+    //let took = createVector();
+  
+  let mPos = createVector(mouseX, mouseY);
+  let took = p5.Vector.sub(ball.pos, mPos);
+  ball.addForce(took);
   }
   
 
