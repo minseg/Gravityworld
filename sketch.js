@@ -36,6 +36,7 @@ function draw() {
   
   let mPos = createVector(mouseX, mouseY);
   let took = p5.Vector.sub(ball.pos, mPos);
+  took.mult(0.1);
   ball.addForce(took);
   }
   
