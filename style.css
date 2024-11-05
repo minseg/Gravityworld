@@ -32,7 +32,9 @@
   </style>
 </head>
 <body>
+  <!-- Add this div element for centered text -->
   <div class="centered-text">2423032김민서</div>
+  <!-- Include the sketch.js file -->
   <script src="sketch.js"></script>
 </body>
 </html>
