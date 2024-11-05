@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   align-content: center;
   text-align: center;
-  color: #ffd9f9;
+  color: #000000;
   background-color: #ffd4d4;
 }
 
@@ -13,7 +13,5 @@ canvas {
   margin-left: auto;
   margin-right: auto;
 
-  fill(255);
-  text('포스가 영원히 함께하기를',50,50);
 }
 
