@@ -15,4 +15,8 @@ function draw() {
 
   ball.update();
   ball.show();
+
+  FileList(0);
+  textsize(100);
+  text('2423032 김민서', 100,200);
 }
