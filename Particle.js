@@ -38,4 +38,15 @@ class Particle {
     circle(this.pos.x, this.pos.y, this.w);
     
   }
+
+  show() {
+    fill(this.c);
+    circle(this.pos.x, this.pos.y, this.w);
+    
+    // Add text below the particle
+    fill(0);  // Set text color
+    textSize(16);
+    text("2423032김민서", this.pos.x - 20, this.pos.y + this.w / 2 + 20);
+  }
+  
 }
