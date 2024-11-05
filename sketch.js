@@ -9,10 +9,12 @@ function setup() {
 function draw() {
     background(220);
   
-    // Create an angled force vector instead of downward gravity
-    let angledForce = createVector(0.2, 0.3);  // Adjust x and y values as needed
-    ball.addForce(angledForce);
-  
+  let gravity = createVector(0, 0.3);
+  ball.addForce(gravity);
+
+  let wind = createVector(0.1, 0);
+  ball.addForce(wind);
+
     ball.update();
     ball.show();
   }
