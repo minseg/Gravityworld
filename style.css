@@ -12,5 +12,8 @@ canvas {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+
+  fill(255);
+  text('포스가 영원히 함께하기를',50,50);
 }
 
