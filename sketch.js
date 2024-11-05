@@ -4,6 +4,7 @@ function setup() {
   createCanvas(400, 200);
 
   ball = new Particle();
+  wind = createVector(0, 0);
 }
 
 function draw() {
@@ -20,7 +21,7 @@ function draw() {
   //let took = createVector();
   
 
- 
+    ball.pos
 
     ball.update();
     ball.show();
