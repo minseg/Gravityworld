@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Particle Simulation</title>
-  <style>
-    /* Existing CSS */
+
+  
     html, body {
       margin: 0;
       padding: 0;
@@ -22,19 +16,11 @@
       margin-right: auto;
     }
 
-    /* New CSS for the centered text */
+  
     .centered-text {
       font-size: 30px; /* Adjust as needed */
       font-weight: bold;
       margin-top: 20px;
       color: #000000;
     }
-  </style>
-</head>
-<body>
-  <!-- Add this div element for centered text -->
-  <div class="centered-text">2423032김민서</div>
-  <!-- Include the sketch.js file -->
-  <script src="sketch.js"></script>
-</body>
-</html>
+  
