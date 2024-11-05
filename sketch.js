@@ -20,8 +20,6 @@ function draw() {
   //let took = createVector();
   
 
-  ball.pos
-
  
 
     ball.update();
