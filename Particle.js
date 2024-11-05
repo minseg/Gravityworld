@@ -38,7 +38,7 @@ class Particle {
     circle(this.pos.x, this.pos.y, this.w);
     fill(255);
     textsize(150);
-    text('2423032 김민서', 200, 300);
+    text('2423032 김민서', 150, 150);
     
   }
 }
