@@ -32,7 +32,7 @@ function draw() {
 
   function mouseCliked(){
 
-  let took = createVector();
+  //let took = createVector();
   
   let mPos = createVector(mouseX, mouseY);
   let took = p5.Vector.sub(ball.pos, mPos);
