@@ -18,10 +18,9 @@ function draw() {
   // }
 
   //let took = createVector();
-  ball.pos
-  let mPos = createVector(mouseX, mouseY);
-  let took = p5.Vector.sub(ball.pos, mPos);
+  
 
+  ball.pos
 
  
 
@@ -29,7 +28,7 @@ function draw() {
     ball.show();
 }
  
-    ball.pos
+  
 
   function mouseCliked(){
 
