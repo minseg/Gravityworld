@@ -28,7 +28,8 @@ function draw() {
     ball.update();
     ball.show();
 }
-
+ 
+    ball.pos
 
   function mouseCliked(){
 
